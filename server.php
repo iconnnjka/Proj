@@ -12,8 +12,13 @@ $db_pass = '3YYMWXQC5BRY3U2G$';
 $db_name = 'xacbank_database';
 $db_port = 3306;
 
-// Establish a regular unencrypted connection to the database
-$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name, $db_port);
+// Enable SSL for the connection
+$ssl_ca = './DigiCertGlobalRootCA.crt.pem'; // Replace with the correct path to your SSL CA certificate file
+
+// Establish a secure SSL-encrypted connection to the database
+$conn = mysqli_init();
+mysqli_ssl_set($conn, NULL, NULL, $ssl_ca, NULL, NULL);
+mysqli_real_connect($conn, $db_host, $db_user, $db_pass, $db_name, $db_port, NULL, MYSQLI_CLIENT_SSL);
 
 if (mysqli_connect_errno()) {
     die('Failed to connect to MySQL: ' . mysqli_connect_error());
