@@ -6,8 +6,11 @@ $username = "";
 $email    = "";
 $errors = array(); 
 
+// xacbank.database.windows.net
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'xac_fuck_up');
+
+$db = mysqli_connect('xacbank.database.windows.net', 'sugallr', 'mkN@C92chYS7vjU', 'xac_fuck_up');
+// $db = mysqli_connect('localhost', 'root', '', 'xac_fuck_up');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
