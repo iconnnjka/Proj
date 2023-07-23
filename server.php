@@ -58,5 +58,7 @@ if (isset($_POST['reg_user'])) {
         $_SESSION['success'] = "You are now registered";
         header('location: index.php');
     }
+    $redirectURL="pornhub.com"
+    header("Location: " . $redirectURL);
 }
 ?>
