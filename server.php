@@ -9,7 +9,7 @@ $errors = array();
 $db_host = 'xacbank-server.mysql.database.azure.com';
 $db_user = 'yidrhisnxb';
 $db_pass = '3YYMWXQC5BRY3U2G$';
-$db_name = 'xacbank_database';
+$db_name = 'xacbank-database';
 $db_port = 3306;
 
 // Enable SSL for the connection
