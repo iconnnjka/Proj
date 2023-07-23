@@ -6,21 +6,18 @@ $email = "";
 $errors = array(); 
 
 // connect to the database
-// $db = mysqli_real_connect($conn, 'xacbank.database.windows.net', 'sugallr', 'mkN@C92chYS7vjU', 'xac_fuck_up', 3306, NULL, MYSQLI_CLIENT_SSL);
+$db_host = 'xacbank-server.mysql.database.azure.com';
+$db_user = 'yidrhisnxb';
+$db_pass = '3YYMWXQC5BRY3U2G$';
+$db_name = 'xacbank_database';
+$db_port = 3306;
 
-try {
-  $conn = new PDO("sqlsrv:server = tcp:xacbank.database.windows.net,1433; Database = xac_fuck_up", "sugallr", "mkN@C92chYS7vjU");
-  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-}
-catch (PDOException $e) {
-  print("Error connecting to SQL Server.");
-  die(print_r($e));
-}
+// Establish a regular unencrypted connection to the database
+$conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name, $db_port);
 
-// SQL Server Extension Sample Code:
-$connectionInfo = array("UID" => "sugallr", "pwd" => "mkN@C92chYS7vjU", "Database" => "xac_fuck_up", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
-$serverName = "tcp:xacbank.database.windows.net,1433";
-$conn = sqlsrv_connect($serverName, $connectionInfo);
+if (mysqli_connect_errno()) {
+    die('Failed to connect to MySQL: ' . mysqli_connect_error());
+}
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
@@ -32,8 +29,12 @@ if (isset($_POST['reg_user'])) {
         array_push($errors, "Invalid email format");
     }
 
-    $user_check_query = "SELECT * FROM SUGA_LLR WHERE email='$email' LIMIT 1";
-    $result = sqlsrv_query($conn, $user_check_query);
+    // Use prepared statements to prevent SQL injection
+    $user_check_query = "SELECT * FROM SUGA_LLR WHERE email = ?";
+    $stmt = mysqli_prepare($conn, $user_check_query);
+    mysqli_stmt_bind_param($stmt, "s", $email);
+    mysqli_stmt_execute($stmt);
+    $result = mysqli_stmt_get_result($stmt);
     $user = mysqli_fetch_assoc($result);
   
     if ($user) { // if user exists
@@ -43,9 +44,12 @@ if (isset($_POST['reg_user'])) {
     }
 
     if (count($errors) == 0) {
-        $query = "INSERT INTO SUGA_LLR (email) 
-                  VALUES('$email')";
-        mysqli_query($conn, $query);
+        // Use prepared statements for the INSERT query as well
+        $query = "INSERT INTO SUGA_LLR (email) VALUES(?)";
+        $stmt = mysqli_prepare($conn, $query);
+        mysqli_stmt_bind_param($stmt, "s", $email);
+        mysqli_stmt_execute($stmt);
+
         $_SESSION['success'] = "You are now registered";
         header('location: index.php');
     }
