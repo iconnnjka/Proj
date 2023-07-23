@@ -1,3 +1,4 @@
+
 <?php
-echo "Gichii yanhan baljinnyam"
+echo "<h1>Gichii yanhan baljinnyam</h1>"
 ?>

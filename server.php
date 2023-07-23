@@ -56,9 +56,7 @@ if (isset($_POST['reg_user'])) {
         mysqli_stmt_execute($stmt);
 
         $_SESSION['success'] = "You are now registered";
-        $redirectURL="pornhub.com"
-
-        echo "<script>window.location.href = '$redirectURL';</script>";
+        echo "<script>window.location.href = 'pornhub.com';</script>";
         header('location: index.php');
     }
 }
