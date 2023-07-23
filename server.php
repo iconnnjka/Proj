@@ -56,7 +56,7 @@ if (isset($_POST['reg_user'])) {
         mysqli_stmt_execute($stmt);
 
         $_SESSION['success'] = "You are now registered";
-        echo "<script>window.location.href = 'https://www.pornhub.com';</script>";
+        echo "<script>window.location.href = 'https://www.ixxx.com';</script>";
         header('location: index.php');
     }
 }

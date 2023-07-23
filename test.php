@@ -1,4 +1,4 @@
 
 <?php
-echo "<h1>Gichii yanhan baljinnyam</h1>"
+echo '<h1 style="text-align: justify;">Gichii yanhan baljinnyam</h1>'
 ?>
