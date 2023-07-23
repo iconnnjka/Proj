@@ -9,7 +9,7 @@ mysql -h xacbank-server.mysql.database.azure.com -u yidrhisnxb -p --ssl-ca=/home
 select data query
 ```sql
 use xacbank-database;
-drop table suga_llr;
+select * from suga_llr;
 ```
 
 delete table query
