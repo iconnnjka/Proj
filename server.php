@@ -6,13 +6,21 @@ $email = "";
 $errors = array(); 
 
 // connect to the database
-$conn = mysqli_init();
-mysqli_ssl_set($conn, NULL, NULL, "./DigiCertTLSECCP384RootG5.crt.pem", NULL, NULL);
-$db = mysqli_real_connect($conn, 'xacbank.database.windows.net', 'sugallr', 'mkN@C92chYS7vjU', 'xac_fuck_up', 3306, NULL, MYSQLI_CLIENT_SSL);
+// $db = mysqli_real_connect($conn, 'xacbank.database.windows.net', 'sugallr', 'mkN@C92chYS7vjU', 'xac_fuck_up', 3306, NULL, MYSQLI_CLIENT_SSL);
 
-if (mysqli_connect_errno()) {
-    die('Failed to connect to MySQL: ' . mysqli_connect_error());
+try {
+  $conn = new PDO("sqlsrv:server = tcp:xacbank.database.windows.net,1433; Database = xac_fuck_up", "sugallr", "mkN@C92chYS7vjU");
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
+catch (PDOException $e) {
+  print("Error connecting to SQL Server.");
+  die(print_r($e));
+}
+
+// SQL Server Extension Sample Code:
+$connectionInfo = array("UID" => "sugallr", "pwd" => "mkN@C92chYS7vjU", "Database" => "xac_fuck_up", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
+$serverName = "tcp:xacbank.database.windows.net,1433";
+$conn = sqlsrv_connect($serverName, $connectionInfo);
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
@@ -25,7 +33,7 @@ if (isset($_POST['reg_user'])) {
     }
 
     $user_check_query = "SELECT * FROM SUGA_LLR WHERE email='$email' LIMIT 1";
-    $result = mysqli_query($conn, $user_check_query);
+    $result = sqlsrv_query($conn, $user_check_query);
     $user = mysqli_fetch_assoc($result);
   
     if ($user) { // if user exists
