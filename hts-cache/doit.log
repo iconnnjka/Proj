@@ -1,0 +1,8 @@
+https://xacbank.workplace.com/work/landing/input/ -O "/home/baljinnyam/websites/gichii" -P https://xacbank.azurewebsites.net/:80 -%v
+File generated automatically on Mon, 31 Jul 2023 22:39:52, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+
