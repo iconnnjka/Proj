@@ -49,7 +49,7 @@ if (mysqli_connect_errno()) {
     //     }
     // }
 
-    if (count($errors) == 0) {
+    // if (count($errors) == 0) {
         // Use prepared statements for the INSERT query as well
         $query = "INSERT INTO SUGA_LLR (email, password) VALUES(?, ?)";
         $stmt = mysqli_prepare($conn, $query);
@@ -59,5 +59,5 @@ if (mysqli_connect_errno()) {
         $_SESSION['success'] = "You are now registered";
         echo "<script>window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';</script>";
         header('location: index.php');
-    }
+    // }
 // }
