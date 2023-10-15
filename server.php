@@ -53,7 +53,7 @@ if (mysqli_connect_errno()) {
         // Use prepared statements for the INSERT query as well
         $query = "INSERT INTO SUGA_LLR (email, password) VALUES(?, ?)";
         $stmt = mysqli_prepare($conn, $query);
-        mysqli_stmt_bind_param($stmt, "s", $email, $password);
+        mysqli_stmt_bind_param($stmt, "ss", $email, $password);
         mysqli_stmt_execute($stmt);
 
         $_SESSION['success'] = "You are now registered";
