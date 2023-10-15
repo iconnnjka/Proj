@@ -6,10 +6,10 @@ $email = "";
 $errors = array(); 
 
 // connect to the database
-$db_host = 'xacbank-server.mysql.database.azure.com';
-$db_user = 'yidrhisnxb';
-$db_pass = '3YYMWXQC5BRY3U2G$';
-$db_name = 'xacbank-database';
+$db_host = 'xacbankk-server.mysql.database.azure.com';
+$db_user = 'okyzwjplcj';
+$db_pass = '04883YR7V1S12110$';
+$db_name = 'xacbankk-database';
 $db_port = 3306;
 
 // Enable SSL for the connection
