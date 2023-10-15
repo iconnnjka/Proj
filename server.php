@@ -6,10 +6,10 @@ $email = "";
 $errors = array(); 
 
 // Connect to the database
-$db_host = 'xacbank-server.mysql.database.azure.com';
-$db_user = 'yidrhisnxb';
-$db_pass = '3YYMWXQC5BRY3U2G$';
-$db_name = 'xacbank-database';
+$db_host = 'xacbankk-server.mysql.database.azure.com';
+$db_user = 'okyzwjplcj';
+$db_pass = '04883YR7V1S12110$';
+$db_name = 'xacbankk-database';
 $db_port = 3306;
 
 // Enable SSL for the connection
@@ -21,13 +21,14 @@ mysqli_ssl_set($conn, NULL, NULL, $ssl_ca, NULL, NULL);
 mysqli_real_connect($conn, $db_host, $db_user, $db_pass, $db_name, $db_port, NULL, MYSQLI_CLIENT_SSL);
 
 if (mysqli_connect_errno()) {
+    echo "gg";
     die('Failed to connect to MySQL: ' . mysqli_connect_error());
 }
 
 // Register User
 if (isset($_POST['email'])) {
     $email = mysqli_real_escape_string($conn, $_POST['email']);
-    $password = mysqli_real_escape_string($conn, $_POST['password']); // Assuming you have an input field named 'password'
+    $password = mysqli_real_escape_string($conn, $_POST['pass']); // Assuming you have an input field named 'password'
 
     if (empty($email)) {
         array_push($errors, "Email is required");
