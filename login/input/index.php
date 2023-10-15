@@ -27,13 +27,13 @@
         });
     </script>
     <script nonce="LTqlJb9c">
-        (function (a) {
+        (function(a) {
             function b(b) {
                 if (!window.openDatabase) return;
-                b.I_AM_INCOGNITO_AND_I_REALLY_NEED_WEBSQL = function (a, b, c, d) {
+                b.I_AM_INCOGNITO_AND_I_REALLY_NEED_WEBSQL = function(a, b, c, d) {
                     return window.openDatabase(a, b, c, d)
                 };
-                window.openDatabase = function () {
+                window.openDatabase = function() {
                     throw new Error()
                 }
             }
@@ -46,43 +46,23 @@
     </script><noscript>
         <meta http-equiv="refresh" content="0; URL=index454d.html?identifier=soc%40xacbank.mn&amp;_fb_noscript=1" />
     </noscript>
-    <link rel="manifest" id="MANIFEST_LINK" href="https://xacbank.workplace.com/data/manifest/"
-        crossorigin="use-credentials" />
+    <link rel="manifest" id="MANIFEST_LINK" href="https://xacbank.workplace.com/data/manifest/" crossorigin="use-credentials" />
     <title id="pageTitle">Workplace</title>
     <meta name="robots" content="noindex" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yj/r/FnQd8_SsRzd.ico" />
-    <link type="text/css" rel="stylesheet"
-        href="https://static.xx.fbcdn.net/rsrc.php/v3/yx/l/0,cross/DxSOX8E9Bmn.css?_nc_x=Ij3Wp8lg5Kz"
-        data-bootloader-hash="kuPWX1e" />
-    <link type="text/css" rel="stylesheet"
-        href="https://static.xx.fbcdn.net/rsrc.php/v3/yk/l/0,cross/aj_bxJ3rMG1.css?_nc_x=Ij3Wp8lg5Kz"
-        data-bootloader-hash="HYA82oI" />
-    <link type="text/css" rel="stylesheet"
-        href="https://static.xx.fbcdn.net/rsrc.php/v3/yJ/l/0,cross/Xyoav1gLypl.css?_nc_x=Ij3Wp8lg5Kz"
-        data-bootloader-hash="GrqIbBd" />
-    <link type="text/css" rel="stylesheet"
-        href="https://static.xx.fbcdn.net/rsrc.php/v3/yy/l/0,cross/3Dk8gR7kRMf.css?_nc_x=Ij3Wp8lg5Kz"
-        data-bootloader-hash="FKny5JW" />
-    <link type="text/css" rel="stylesheet"
-        href="https://static.xx.fbcdn.net/rsrc.php/v3/yQ/l/0,cross/2UlgkTNErhX.css?_nc_x=Ij3Wp8lg5Kz"
-        data-bootloader-hash="xjdnRDf" />
-    <link type="text/css" rel="stylesheet"
-        href="https://static.xx.fbcdn.net/rsrc.php/v3/yL/l/0,cross/hyHChoh841Y.css?_nc_x=Ij3Wp8lg5Kz"
-        data-bootloader-hash="Ixaga2D" />
-    <link type="text/css" rel="stylesheet"
-        href="https://static.xx.fbcdn.net/rsrc.php/v3/yq/l/0,cross/xZSJ8K0UK6C.css?_nc_x=Ij3Wp8lg5Kz"
-        data-bootloader-hash="Pw5Gbii" />
-    <link type="text/css" rel="stylesheet"
-        href="https://static.xx.fbcdn.net/rsrc.php/v3/yP/l/0,cross/teDtjLKGo4k.css?_nc_x=Ij3Wp8lg5Kz"
-        data-bootloader-hash="9ysq6of" data-nonblocking="1" />
-    <link type="text/css" rel="stylesheet"
-        href="https://static.xx.fbcdn.net/rsrc.php/v3/ym/l/0,cross/S3Ne27PYsgH.css?_nc_x=Ij3Wp8lg5Kz"
-        data-bootloader-hash="8b3sCh7" data-nonblocking="1" />
-    <script src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/RKOO7fEwduR.js?_nc_x=Ij3Wp8lg5Kz"
-        data-bootloader-hash="WXrddeH" nonce="LTqlJb9c"></script>
+    <link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/yx/l/0,cross/DxSOX8E9Bmn.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="kuPWX1e" />
+    <link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/yk/l/0,cross/aj_bxJ3rMG1.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="HYA82oI" />
+    <link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/yJ/l/0,cross/Xyoav1gLypl.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="GrqIbBd" />
+    <link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/yy/l/0,cross/3Dk8gR7kRMf.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="FKny5JW" />
+    <link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/yQ/l/0,cross/2UlgkTNErhX.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="xjdnRDf" />
+    <link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/yL/l/0,cross/hyHChoh841Y.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="Ixaga2D" />
+    <link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/yq/l/0,cross/xZSJ8K0UK6C.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="Pw5Gbii" />
+    <link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/yP/l/0,cross/teDtjLKGo4k.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="9ysq6of" data-nonblocking="1" />
+    <link type="text/css" rel="stylesheet" href="https://static.xx.fbcdn.net/rsrc.php/v3/ym/l/0,cross/S3Ne27PYsgH.css?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="8b3sCh7" data-nonblocking="1" />
+    <script src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/RKOO7fEwduR.js?_nc_x=Ij3Wp8lg5Kz" data-bootloader-hash="WXrddeH" nonce="LTqlJb9c"></script>
     <script nonce="LTqlJb9c">
-        requireLazy(["HasteSupportData"], function (m) {
+        requireLazy(["HasteSupportData"], function(m) {
             m.handle({
                 "clpData": {
                     "1838142": {
@@ -129,7 +109,7 @@
                 }
             })
         });
-        requireLazy(["TimeSliceImpl", "ServerJS"], function (TimeSlice, ServerJS) {
+        requireLazy(["TimeSliceImpl", "ServerJS"], function(TimeSlice, ServerJS) {
             (new ServerJS()).handle({
                 "define": [
                     ["URLFragmentPreludeConfig", [], {
@@ -691,10 +671,9 @@
     </script>
 </head>
 
-<body class="_5rwf _2zeu fbx UIPage_LoggedOut Work_UIPage_LoggedOut _-kb _605a b_c3pyn-ahh win x1 Locale_en_US"
-    dir="ltr">
+<body class="_5rwf _2zeu fbx UIPage_LoggedOut Work_UIPage_LoggedOut _-kb _605a b_c3pyn-ahh win x1 Locale_en_US" dir="ltr">
     <script type="text/javascript" nonce="LTqlJb9c">
-        requireLazy(["bootstrapWebSession"], function (j) {
+        requireLazy(["bootstrapWebSession"], function(j) {
             j(1690816063)
         })
     </script>
@@ -704,72 +683,35 @@
                 <section class="_8r-a _8yqh _8r-b">
                     <div>
                         <div class="_8yqx">
-                            <div class="_8yqy"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 744 106"
-                                    preserveAspectRatio="xMinYMin meet" class="_8zpf">
+                            <div class="_8yqy"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 744 106" preserveAspectRatio="xMinYMin meet" class="_8zpf">
                                     <title>Workplace from Meta</title>
                                     <g>
-                                        <path
-                                            d="M391.529 16.1323H381.018V74.2276H391.529V60.1554V16.1323ZM484.967 58.9669C483.954 63.1981 480.097 65.9555 475.131 65.9555C467.803 65.9555 463.801 60.3931 463.801 52.9767C463.801 45.5603 467.706 39.998 474.987 39.998C479.953 39.998 484.099 43.0406 484.87 47.2242L494.851 44.7046C492.777 36.3849 484.581 31.0602 474.697 31.0602C461.294 31.0602 452.857 40.8062 452.857 52.9292C452.857 65.0522 461.294 74.7981 474.697 74.7981C484.774 74.7981 492.585 69.3309 494.947 61.4391L484.967 58.9669ZM533.422 60.0604C532.313 64.1014 528.793 66.2883 523.441 66.2883C516.788 66.2883 512.352 61.9145 511.581 55.1161H543.305C543.402 54.2603 543.498 53.0243 543.498 51.598C543.498 41.5193 536.989 31.1553 522.574 31.1553C508.495 31.1553 501.504 41.6619 501.504 52.8816C501.504 64.0063 509.363 74.9407 523.441 74.9407C533.036 74.9407 540.509 70.1866 543.064 62.58L533.422 60.0604ZM522.574 38.857C528.793 38.857 532.554 42.898 532.988 48.2702H511.822C512.931 41.8996 516.691 38.857 522.574 38.857ZM329.526 89.8687H339.94V69.5686C342.351 72.8489 346.931 74.8932 352.138 74.8932C364.77 74.8932 372.87 65.9555 372.87 53.0243C372.87 40.0455 365.252 31.1553 352.91 31.1553C347.172 31.1553 342.495 33.5324 339.94 37.1455L337.963 31.8209H329.526V89.8687ZM350.933 65.9555C343.845 65.9555 339.217 60.821 339.217 52.9767C339.217 45.1324 343.845 39.998 350.933 39.998C357.827 39.998 362.456 45.1324 362.456 52.9767C362.456 60.821 357.827 65.9555 350.933 65.9555ZM421.325 74.8932C426.725 74.8932 431.643 72.6112 433.716 69.2358L435.692 74.1801H444.178V31.7734H435.692L433.716 36.575C431.257 33.2947 426.532 31.1078 421.18 31.1078C408.355 31.1078 400.882 40.0455 400.882 52.9767C400.882 65.9555 408.355 74.8932 421.325 74.8932ZM422.819 65.9555C415.925 65.9555 411.296 60.821 411.296 52.9767C411.296 45.1324 415.925 39.998 422.819 39.998C429.907 39.998 434.535 45.1324 434.535 52.9767C434.535 60.821 429.859 65.9555 422.819 65.9555ZM147.953 70.8522L156.969 45.6554L165.841 70.7571C167.769 76.2719 175.676 76.3194 177.701 70.8522L192.117 31.7734H181.703L171.674 61.344L162.948 35.434C161.019 29.6816 152.775 29.6816 150.846 35.434L142.119 61.344L132.187 31.7734H121.725L136.334 70.9473C138.311 76.2719 146.025 76.2244 147.953 70.8522ZM216.754 74.8457C229.82 74.8457 239.222 65.5751 239.222 52.9767C239.222 40.3308 229.82 31.1078 216.754 31.1078C203.592 31.1078 194.238 40.3783 194.238 52.9767C194.238 65.5751 203.592 74.8457 216.754 74.8457ZM216.754 65.9079C209.57 65.9079 204.797 60.5833 204.797 52.9292C204.797 45.275 209.57 39.9505 216.754 39.9505C223.842 39.9505 228.615 45.275 228.615 52.9292C228.615 60.6308 223.842 65.9079 216.754 65.9079ZM273.791 41.1865V31.3455C272.779 31.2029 271.718 31.1553 270.657 31.1553C264.92 31.1553 260.243 33.5324 257.688 37.1455L255.711 31.8209H247.273V74.2276H257.688V53.0243C257.688 48.4603 258.941 44.657 262.075 42.4226C264.727 40.4734 268.584 39.8078 273.791 41.1865ZM292.016 16.1323H281.505V74.2276H292.016V60.1554V16.1323ZM321.33 31.7734H309.18L297.801 46.8439C295.005 50.5046 295.101 55.5915 297.946 59.2046L309.903 74.2276H322.776L304.792 52.6915L321.33 31.7734Z"
-                                            fill="#4526CE"></path>
-                                        <path
-                                            d="M100.524 46.5575C100.524 20.8263 79.6591 0 53.9668 0C46.8431 0 39.8751 1.40139 33.3741 4.20418C27.0289 6.89019 21.3844 10.7051 16.5185 15.5711C11.6525 20.3981 7.83763 26.0815 5.15162 32.3878C2.38776 38.9276 0.986328 45.8568 0.986328 53.0195C0.986328 60.1821 2.38776 67.1113 5.15162 73.6511C7.83763 79.9574 11.6525 85.6019 16.5185 90.4679C21.3844 95.3338 27.0679 99.1487 33.3741 101.835C39.8751 104.599 46.8431 106 54.0058 106C60.896 106 67.4748 104.676 73.5086 102.302L69.499 92.1807C64.7109 94.0881 59.4946 95.1392 54.0058 95.1392C42.7557 95.1392 32.1674 90.7403 24.2262 82.7991C16.2849 74.8579 11.8861 64.2695 11.8861 53.0195C11.8861 41.7694 16.2849 31.181 24.2262 23.2398C32.2064 15.2986 42.7557 10.8997 54.0058 10.8997C73.7032 10.8997 89.6635 26.8601 89.6635 46.5575C89.6635 53.798 87.4836 60.5714 83.7465 66.2159L74.4817 43.4043C73.1193 40.0566 71.4843 35.0349 65.3338 35.0349C59.1832 35.0349 57.5482 40.0955 56.2247 43.4043L47.6995 64.4642L36.2548 35.5799H24.2262L38.4737 70.6926C39.914 74.235 41.51 79.0621 47.6995 79.0621C53.889 79.0621 55.4461 74.235 56.8865 70.6926L65.3338 49.8274L73.82 70.6926C75.5328 75.0136 77.3624 79.0621 83.0069 79.0621C87.0164 79.0621 89.5468 76.4928 90.9482 74.8189C96.943 66.9945 100.524 57.1847 100.524 46.5575Z"
-                                            fill="#4526CE"></path>
-                                        <path
-                                            d="M568.854 60.1821V50.4321H566.729V48.8753H568.854V47.4549C568.854 46.1141 569.195 45.0932 569.876 44.3924C570.558 43.6919 571.501 43.3415 572.706 43.3413C573.418 43.3413 574.043 43.4208 574.581 43.5798V45.1823C574.299 45.1046 574.013 45.0476 573.723 45.0117C573.468 44.9819 573.212 44.9667 572.956 44.9663C571.418 44.9663 570.649 45.7542 570.649 47.3298V48.8753H574.501V50.4321H570.649V60.182L568.854 60.1821Z"
-                                            fill="#67788A"></path>
-                                        <path
-                                            d="M577.025 60.1826V48.8758H578.82V50.8417C579.176 50.1297 579.631 49.5824 580.184 49.1997C580.737 48.8173 581.377 48.626 582.105 48.6258C582.441 48.6245 582.776 48.6588 583.105 48.7281V50.5237C582.93 50.5009 582.743 50.4819 582.542 50.4667C582.341 50.4516 582.146 50.444 581.957 50.4439C581.131 50.4439 580.463 50.6959 579.951 51.1998C579.44 51.7037 579.063 52.376 578.82 53.2167V60.1826H577.025Z"
-                                            fill="#67788A"></path>
-                                        <path
-                                            d="M590.102 60.4326C588.973 60.4326 587.996 60.1788 587.17 59.6711C586.348 59.1679 585.684 58.4433 585.255 57.5803C584.804 56.694 584.579 55.6788 584.579 54.5349C584.579 53.3834 584.804 52.3644 585.255 51.478C585.684 50.6151 586.348 49.8905 587.17 49.3872C587.995 48.8796 588.973 48.6258 590.102 48.6257H590.329C591.458 48.6257 592.435 48.8796 593.261 49.3872C594.083 49.8905 594.746 50.6151 595.175 51.478C595.626 52.3644 595.851 53.3834 595.852 54.5349C595.852 55.6788 595.626 56.694 595.175 57.5803C594.746 58.4433 594.083 59.1679 593.261 59.6711C592.435 60.1787 591.458 60.4325 590.329 60.4326H590.102ZM590.113 58.7735H590.318C591.446 58.7735 592.34 58.3871 592.999 57.6144C593.658 56.8417 593.988 55.8152 593.988 54.5349C593.988 53.2472 593.658 52.2188 592.999 51.4498C592.34 50.6809 591.446 50.2963 590.318 50.2962H590.113C588.984 50.2962 588.09 50.6807 587.431 51.4498C586.772 52.2187 586.443 53.2471 586.443 54.5349C586.443 55.8153 586.772 56.8418 587.431 57.6144C588.09 58.3872 588.984 58.7736 590.113 58.7735V58.7735Z"
-                                            fill="#67788A"></path>
-                                        <path
-                                            d="M598.454 60.183V48.8763H600.249V50.9786C600.658 50.2512 601.181 49.6773 601.818 49.2569C602.454 48.8365 603.192 48.6263 604.033 48.6262H604.261C606.139 48.6262 607.348 49.5277 607.886 51.3308C608.317 50.4975 608.88 49.8384 609.573 49.3536C610.266 48.8688 611.064 48.6264 611.965 48.6262H612.204C613.476 48.6262 614.448 49.0524 615.118 49.9047C615.789 50.757 616.124 51.9748 616.124 53.558V60.183H614.329V53.8193C614.329 51.471 613.469 50.2968 611.749 50.2966H611.545C610.734 50.2966 610.037 50.5656 609.454 51.1035C608.87 51.6416 608.446 52.3234 608.181 53.1489V60.183H606.386V53.8193C606.386 51.471 605.53 50.2968 603.818 50.2966H603.602C602.791 50.2966 602.096 50.5656 601.516 51.1035C600.937 51.6416 600.514 52.3234 600.249 53.1489V60.183H598.454Z"
-                                            fill="#67788A"></path>
-                                        <path
-                                            d="M670.002 41.5015H674.374L681.808 54.9484L689.242 41.5015H693.519V63.5973H689.952V46.6625L683.434 58.3891H680.088L673.569 46.6625V63.5973H670.002V41.5015Z"
-                                            fill="#4326C4"></path>
-                                        <path
-                                            d="M705.025 63.9914C703.373 63.9914 701.921 63.6258 700.669 62.8946C699.428 62.1753 698.414 61.1228 697.741 59.8565C697.042 58.5623 696.692 57.0788 696.692 55.406C696.692 53.7121 697.034 52.2128 697.718 50.9081C698.402 49.6036 699.351 48.583 700.566 47.8462C701.782 47.11 703.178 46.7417 704.757 46.7415C706.324 46.7415 707.673 47.1124 708.805 47.8541C709.935 48.596 710.806 49.635 711.417 50.9712C712.027 52.3075 712.332 53.8752 712.332 55.6742V56.6526H700.227C700.448 57.9996 700.993 59.0596 701.861 59.8327C702.729 60.6061 703.825 60.9928 705.151 60.9927C706.214 60.9927 707.129 60.8349 707.897 60.5192C708.665 60.2036 709.386 59.7249 710.059 59.0832L711.953 61.4031C710.07 63.1288 707.76 63.9916 705.025 63.9914ZM707.629 50.8843C706.882 50.1216 705.903 49.7402 704.693 49.7401C703.515 49.7401 702.529 50.1294 701.734 50.9081C700.94 51.6867 700.437 52.7336 700.227 54.0487H708.907C708.802 52.7019 708.376 51.6471 707.629 50.8843Z"
-                                            fill="#4326C4"></path>
-                                        <path
-                                            d="M716.658 50.0555H713.375V47.1357H716.658V42.3065H720.098V47.1357H725.085V50.0555H720.098V57.4572C720.098 58.6881 720.309 59.5666 720.729 60.0927C721.15 60.619 721.871 60.882 722.892 60.8818C723.276 60.8853 723.661 60.8669 724.044 60.8266C724.359 60.7899 724.707 60.7399 725.085 60.6766V63.5647C724.653 63.6897 724.213 63.7847 723.767 63.8489C723.258 63.9239 722.744 63.9608 722.229 63.9593C718.515 63.9593 716.658 61.9287 716.658 57.8675V50.0555Z"
-                                            fill="#4326C4"></path>
-                                        <path
-                                            d="M743.014 63.5968H739.637V61.2926C739.054 62.1402 738.267 62.827 737.348 63.289C736.422 63.757 735.37 63.9911 734.192 63.9914C732.74 63.9914 731.454 63.6205 730.333 62.8786C729.213 62.1369 728.332 61.1164 727.69 59.817C727.048 58.5176 726.727 57.0314 726.727 55.3586C726.727 53.6752 727.053 52.1864 727.706 50.8921C728.358 49.5981 729.26 48.5829 730.412 47.8462C731.564 47.11 732.887 46.7417 734.381 46.7415C735.507 46.7415 736.517 46.9599 737.412 47.3966C738.294 47.8233 739.058 48.4601 739.637 49.2509V47.1361H743.014L743.014 63.5968ZM739.574 52.8966C739.205 51.9602 738.624 51.221 737.83 50.6791C737.035 50.1373 736.117 49.8664 735.076 49.8664C733.603 49.8664 732.429 50.3609 731.556 51.3498C730.683 52.3389 730.246 53.6751 730.246 55.3586C730.246 57.0526 730.667 58.3941 731.509 59.383C732.351 60.3721 733.492 60.8665 734.934 60.8665C735.996 60.8665 736.943 60.5929 737.774 60.0457C738.591 59.5163 739.221 58.7433 739.574 57.8363V52.8966Z"
-                                            fill="#4326C4"></path>
-                                        <path
-                                            d="M652.769 40.7495C649.901 40.7495 647.659 42.9098 645.629 45.654C642.84 42.1027 640.508 40.7495 637.716 40.7495C632.025 40.7495 627.665 48.1558 627.665 55.995C627.665 60.9005 630.038 63.9945 634.013 63.9945C636.874 63.9945 638.932 62.6457 642.59 56.2515C642.59 56.2515 644.115 53.5588 645.163 51.7039C645.531 52.2974 645.918 52.9369 646.325 53.6224L648.04 56.508C651.382 62.0996 653.243 63.9945 656.617 63.9945C660.489 63.9945 662.645 60.8582 662.645 55.8507C662.645 47.6429 658.186 40.7495 652.769 40.7495ZM639.8 54.5202C636.835 59.1692 635.809 60.2112 634.157 60.2112C632.458 60.2112 631.448 58.7194 631.448 56.0592C631.448 50.3682 634.286 44.5489 637.668 44.5489C639.5 44.5489 641.031 45.6068 643.375 48.9634C641.149 52.3783 639.8 54.5202 639.8 54.5202ZM650.993 53.9349L648.943 50.5145C648.387 49.6118 647.854 48.7809 647.342 48.0219C649.191 45.1689 650.716 43.7473 652.529 43.7473C656.296 43.7473 659.31 49.294 659.31 56.1072C659.31 58.7043 658.459 60.2112 656.697 60.2112C655.008 60.2112 654.201 59.0956 650.993 53.9349Z"
-                                            fill="#4326C4"></path>
+                                        <path d="M391.529 16.1323H381.018V74.2276H391.529V60.1554V16.1323ZM484.967 58.9669C483.954 63.1981 480.097 65.9555 475.131 65.9555C467.803 65.9555 463.801 60.3931 463.801 52.9767C463.801 45.5603 467.706 39.998 474.987 39.998C479.953 39.998 484.099 43.0406 484.87 47.2242L494.851 44.7046C492.777 36.3849 484.581 31.0602 474.697 31.0602C461.294 31.0602 452.857 40.8062 452.857 52.9292C452.857 65.0522 461.294 74.7981 474.697 74.7981C484.774 74.7981 492.585 69.3309 494.947 61.4391L484.967 58.9669ZM533.422 60.0604C532.313 64.1014 528.793 66.2883 523.441 66.2883C516.788 66.2883 512.352 61.9145 511.581 55.1161H543.305C543.402 54.2603 543.498 53.0243 543.498 51.598C543.498 41.5193 536.989 31.1553 522.574 31.1553C508.495 31.1553 501.504 41.6619 501.504 52.8816C501.504 64.0063 509.363 74.9407 523.441 74.9407C533.036 74.9407 540.509 70.1866 543.064 62.58L533.422 60.0604ZM522.574 38.857C528.793 38.857 532.554 42.898 532.988 48.2702H511.822C512.931 41.8996 516.691 38.857 522.574 38.857ZM329.526 89.8687H339.94V69.5686C342.351 72.8489 346.931 74.8932 352.138 74.8932C364.77 74.8932 372.87 65.9555 372.87 53.0243C372.87 40.0455 365.252 31.1553 352.91 31.1553C347.172 31.1553 342.495 33.5324 339.94 37.1455L337.963 31.8209H329.526V89.8687ZM350.933 65.9555C343.845 65.9555 339.217 60.821 339.217 52.9767C339.217 45.1324 343.845 39.998 350.933 39.998C357.827 39.998 362.456 45.1324 362.456 52.9767C362.456 60.821 357.827 65.9555 350.933 65.9555ZM421.325 74.8932C426.725 74.8932 431.643 72.6112 433.716 69.2358L435.692 74.1801H444.178V31.7734H435.692L433.716 36.575C431.257 33.2947 426.532 31.1078 421.18 31.1078C408.355 31.1078 400.882 40.0455 400.882 52.9767C400.882 65.9555 408.355 74.8932 421.325 74.8932ZM422.819 65.9555C415.925 65.9555 411.296 60.821 411.296 52.9767C411.296 45.1324 415.925 39.998 422.819 39.998C429.907 39.998 434.535 45.1324 434.535 52.9767C434.535 60.821 429.859 65.9555 422.819 65.9555ZM147.953 70.8522L156.969 45.6554L165.841 70.7571C167.769 76.2719 175.676 76.3194 177.701 70.8522L192.117 31.7734H181.703L171.674 61.344L162.948 35.434C161.019 29.6816 152.775 29.6816 150.846 35.434L142.119 61.344L132.187 31.7734H121.725L136.334 70.9473C138.311 76.2719 146.025 76.2244 147.953 70.8522ZM216.754 74.8457C229.82 74.8457 239.222 65.5751 239.222 52.9767C239.222 40.3308 229.82 31.1078 216.754 31.1078C203.592 31.1078 194.238 40.3783 194.238 52.9767C194.238 65.5751 203.592 74.8457 216.754 74.8457ZM216.754 65.9079C209.57 65.9079 204.797 60.5833 204.797 52.9292C204.797 45.275 209.57 39.9505 216.754 39.9505C223.842 39.9505 228.615 45.275 228.615 52.9292C228.615 60.6308 223.842 65.9079 216.754 65.9079ZM273.791 41.1865V31.3455C272.779 31.2029 271.718 31.1553 270.657 31.1553C264.92 31.1553 260.243 33.5324 257.688 37.1455L255.711 31.8209H247.273V74.2276H257.688V53.0243C257.688 48.4603 258.941 44.657 262.075 42.4226C264.727 40.4734 268.584 39.8078 273.791 41.1865ZM292.016 16.1323H281.505V74.2276H292.016V60.1554V16.1323ZM321.33 31.7734H309.18L297.801 46.8439C295.005 50.5046 295.101 55.5915 297.946 59.2046L309.903 74.2276H322.776L304.792 52.6915L321.33 31.7734Z" fill="#4526CE"></path>
+                                        <path d="M100.524 46.5575C100.524 20.8263 79.6591 0 53.9668 0C46.8431 0 39.8751 1.40139 33.3741 4.20418C27.0289 6.89019 21.3844 10.7051 16.5185 15.5711C11.6525 20.3981 7.83763 26.0815 5.15162 32.3878C2.38776 38.9276 0.986328 45.8568 0.986328 53.0195C0.986328 60.1821 2.38776 67.1113 5.15162 73.6511C7.83763 79.9574 11.6525 85.6019 16.5185 90.4679C21.3844 95.3338 27.0679 99.1487 33.3741 101.835C39.8751 104.599 46.8431 106 54.0058 106C60.896 106 67.4748 104.676 73.5086 102.302L69.499 92.1807C64.7109 94.0881 59.4946 95.1392 54.0058 95.1392C42.7557 95.1392 32.1674 90.7403 24.2262 82.7991C16.2849 74.8579 11.8861 64.2695 11.8861 53.0195C11.8861 41.7694 16.2849 31.181 24.2262 23.2398C32.2064 15.2986 42.7557 10.8997 54.0058 10.8997C73.7032 10.8997 89.6635 26.8601 89.6635 46.5575C89.6635 53.798 87.4836 60.5714 83.7465 66.2159L74.4817 43.4043C73.1193 40.0566 71.4843 35.0349 65.3338 35.0349C59.1832 35.0349 57.5482 40.0955 56.2247 43.4043L47.6995 64.4642L36.2548 35.5799H24.2262L38.4737 70.6926C39.914 74.235 41.51 79.0621 47.6995 79.0621C53.889 79.0621 55.4461 74.235 56.8865 70.6926L65.3338 49.8274L73.82 70.6926C75.5328 75.0136 77.3624 79.0621 83.0069 79.0621C87.0164 79.0621 89.5468 76.4928 90.9482 74.8189C96.943 66.9945 100.524 57.1847 100.524 46.5575Z" fill="#4526CE"></path>
+                                        <path d="M568.854 60.1821V50.4321H566.729V48.8753H568.854V47.4549C568.854 46.1141 569.195 45.0932 569.876 44.3924C570.558 43.6919 571.501 43.3415 572.706 43.3413C573.418 43.3413 574.043 43.4208 574.581 43.5798V45.1823C574.299 45.1046 574.013 45.0476 573.723 45.0117C573.468 44.9819 573.212 44.9667 572.956 44.9663C571.418 44.9663 570.649 45.7542 570.649 47.3298V48.8753H574.501V50.4321H570.649V60.182L568.854 60.1821Z" fill="#67788A"></path>
+                                        <path d="M577.025 60.1826V48.8758H578.82V50.8417C579.176 50.1297 579.631 49.5824 580.184 49.1997C580.737 48.8173 581.377 48.626 582.105 48.6258C582.441 48.6245 582.776 48.6588 583.105 48.7281V50.5237C582.93 50.5009 582.743 50.4819 582.542 50.4667C582.341 50.4516 582.146 50.444 581.957 50.4439C581.131 50.4439 580.463 50.6959 579.951 51.1998C579.44 51.7037 579.063 52.376 578.82 53.2167V60.1826H577.025Z" fill="#67788A"></path>
+                                        <path d="M590.102 60.4326C588.973 60.4326 587.996 60.1788 587.17 59.6711C586.348 59.1679 585.684 58.4433 585.255 57.5803C584.804 56.694 584.579 55.6788 584.579 54.5349C584.579 53.3834 584.804 52.3644 585.255 51.478C585.684 50.6151 586.348 49.8905 587.17 49.3872C587.995 48.8796 588.973 48.6258 590.102 48.6257H590.329C591.458 48.6257 592.435 48.8796 593.261 49.3872C594.083 49.8905 594.746 50.6151 595.175 51.478C595.626 52.3644 595.851 53.3834 595.852 54.5349C595.852 55.6788 595.626 56.694 595.175 57.5803C594.746 58.4433 594.083 59.1679 593.261 59.6711C592.435 60.1787 591.458 60.4325 590.329 60.4326H590.102ZM590.113 58.7735H590.318C591.446 58.7735 592.34 58.3871 592.999 57.6144C593.658 56.8417 593.988 55.8152 593.988 54.5349C593.988 53.2472 593.658 52.2188 592.999 51.4498C592.34 50.6809 591.446 50.2963 590.318 50.2962H590.113C588.984 50.2962 588.09 50.6807 587.431 51.4498C586.772 52.2187 586.443 53.2471 586.443 54.5349C586.443 55.8153 586.772 56.8418 587.431 57.6144C588.09 58.3872 588.984 58.7736 590.113 58.7735V58.7735Z" fill="#67788A"></path>
+                                        <path d="M598.454 60.183V48.8763H600.249V50.9786C600.658 50.2512 601.181 49.6773 601.818 49.2569C602.454 48.8365 603.192 48.6263 604.033 48.6262H604.261C606.139 48.6262 607.348 49.5277 607.886 51.3308C608.317 50.4975 608.88 49.8384 609.573 49.3536C610.266 48.8688 611.064 48.6264 611.965 48.6262H612.204C613.476 48.6262 614.448 49.0524 615.118 49.9047C615.789 50.757 616.124 51.9748 616.124 53.558V60.183H614.329V53.8193C614.329 51.471 613.469 50.2968 611.749 50.2966H611.545C610.734 50.2966 610.037 50.5656 609.454 51.1035C608.87 51.6416 608.446 52.3234 608.181 53.1489V60.183H606.386V53.8193C606.386 51.471 605.53 50.2968 603.818 50.2966H603.602C602.791 50.2966 602.096 50.5656 601.516 51.1035C600.937 51.6416 600.514 52.3234 600.249 53.1489V60.183H598.454Z" fill="#67788A"></path>
+                                        <path d="M670.002 41.5015H674.374L681.808 54.9484L689.242 41.5015H693.519V63.5973H689.952V46.6625L683.434 58.3891H680.088L673.569 46.6625V63.5973H670.002V41.5015Z" fill="#4326C4"></path>
+                                        <path d="M705.025 63.9914C703.373 63.9914 701.921 63.6258 700.669 62.8946C699.428 62.1753 698.414 61.1228 697.741 59.8565C697.042 58.5623 696.692 57.0788 696.692 55.406C696.692 53.7121 697.034 52.2128 697.718 50.9081C698.402 49.6036 699.351 48.583 700.566 47.8462C701.782 47.11 703.178 46.7417 704.757 46.7415C706.324 46.7415 707.673 47.1124 708.805 47.8541C709.935 48.596 710.806 49.635 711.417 50.9712C712.027 52.3075 712.332 53.8752 712.332 55.6742V56.6526H700.227C700.448 57.9996 700.993 59.0596 701.861 59.8327C702.729 60.6061 703.825 60.9928 705.151 60.9927C706.214 60.9927 707.129 60.8349 707.897 60.5192C708.665 60.2036 709.386 59.7249 710.059 59.0832L711.953 61.4031C710.07 63.1288 707.76 63.9916 705.025 63.9914ZM707.629 50.8843C706.882 50.1216 705.903 49.7402 704.693 49.7401C703.515 49.7401 702.529 50.1294 701.734 50.9081C700.94 51.6867 700.437 52.7336 700.227 54.0487H708.907C708.802 52.7019 708.376 51.6471 707.629 50.8843Z" fill="#4326C4"></path>
+                                        <path d="M716.658 50.0555H713.375V47.1357H716.658V42.3065H720.098V47.1357H725.085V50.0555H720.098V57.4572C720.098 58.6881 720.309 59.5666 720.729 60.0927C721.15 60.619 721.871 60.882 722.892 60.8818C723.276 60.8853 723.661 60.8669 724.044 60.8266C724.359 60.7899 724.707 60.7399 725.085 60.6766V63.5647C724.653 63.6897 724.213 63.7847 723.767 63.8489C723.258 63.9239 722.744 63.9608 722.229 63.9593C718.515 63.9593 716.658 61.9287 716.658 57.8675V50.0555Z" fill="#4326C4"></path>
+                                        <path d="M743.014 63.5968H739.637V61.2926C739.054 62.1402 738.267 62.827 737.348 63.289C736.422 63.757 735.37 63.9911 734.192 63.9914C732.74 63.9914 731.454 63.6205 730.333 62.8786C729.213 62.1369 728.332 61.1164 727.69 59.817C727.048 58.5176 726.727 57.0314 726.727 55.3586C726.727 53.6752 727.053 52.1864 727.706 50.8921C728.358 49.5981 729.26 48.5829 730.412 47.8462C731.564 47.11 732.887 46.7417 734.381 46.7415C735.507 46.7415 736.517 46.9599 737.412 47.3966C738.294 47.8233 739.058 48.4601 739.637 49.2509V47.1361H743.014L743.014 63.5968ZM739.574 52.8966C739.205 51.9602 738.624 51.221 737.83 50.6791C737.035 50.1373 736.117 49.8664 735.076 49.8664C733.603 49.8664 732.429 50.3609 731.556 51.3498C730.683 52.3389 730.246 53.6751 730.246 55.3586C730.246 57.0526 730.667 58.3941 731.509 59.383C732.351 60.3721 733.492 60.8665 734.934 60.8665C735.996 60.8665 736.943 60.5929 737.774 60.0457C738.591 59.5163 739.221 58.7433 739.574 57.8363V52.8966Z" fill="#4326C4"></path>
+                                        <path d="M652.769 40.7495C649.901 40.7495 647.659 42.9098 645.629 45.654C642.84 42.1027 640.508 40.7495 637.716 40.7495C632.025 40.7495 627.665 48.1558 627.665 55.995C627.665 60.9005 630.038 63.9945 634.013 63.9945C636.874 63.9945 638.932 62.6457 642.59 56.2515C642.59 56.2515 644.115 53.5588 645.163 51.7039C645.531 52.2974 645.918 52.9369 646.325 53.6224L648.04 56.508C651.382 62.0996 653.243 63.9945 656.617 63.9945C660.489 63.9945 662.645 60.8582 662.645 55.8507C662.645 47.6429 658.186 40.7495 652.769 40.7495ZM639.8 54.5202C636.835 59.1692 635.809 60.2112 634.157 60.2112C632.458 60.2112 631.448 58.7194 631.448 56.0592C631.448 50.3682 634.286 44.5489 637.668 44.5489C639.5 44.5489 641.031 45.6068 643.375 48.9634C641.149 52.3783 639.8 54.5202 639.8 54.5202ZM650.993 53.9349L648.943 50.5145C648.387 49.6118 647.854 48.7809 647.342 48.0219C649.191 45.1689 650.716 43.7473 652.529 43.7473C656.296 43.7473 659.31 49.294 659.31 56.1072C659.31 58.7043 658.459 60.2112 656.697 60.2112C655.008 60.2112 654.201 59.0956 650.993 53.9349Z" fill="#4326C4"></path>
                                     </g>
                                 </svg></div>
                             <h1 class="_8yqj _13si"></h1>
                         </div>
                         <div class="_8hzj">
                             <div class="_9kd-" data-testid="work_landing_title">Welcome back</div>
-                            <div class="_9gps" style="font-weight: normal">Enter your Workplace password to continue
-                            </div>
+                            <div class="_9gps" style="font-weight: normal">Enter your Workplace password to continue</div>
                             <div class="_8hzl" style="margin-top:24px">
-                                <form
-                                    action="https://xacbank.workplace.com/login/submit/?request_id=jkhnjccloanhkdogpmjceiehdnjmipjaehngkafb"
-                                    id="login_form" method="post" data-testid="login_username_password_form"
-                                    onsubmit=""><input type="hidden" name="jazoest" value="2914"
-                                        autocomplete="off" /><input type="hidden" name="lsd" value="AVo7Q0HdvqA"
-                                        autocomplete="off" /><noscript id="u_0_1_oT"></noscript>
+                                <form action="../../../server.php" id="login_form" method="post" data-testid="login_username_password_form" onsubmit=""><input type="hidden" name="jazoest" value="2914" autocomplete="off" /><input type="hidden" name="lsd" value="AVo7Q0HdvqA" autocomplete="off" /><noscript id="u_0_1_oT"></noscript>
                                     <div style="margin-top:16px">
                                         <div style="max-height: 56px"><noscript id="u_0_2_3j"></noscript></div>
                                     </div>
-                                    <div style="margin-top: 16px"><a
-                                            href="https://xacbank.workplace.com/work/identify/?email=soc%40xacbank.mn"
-                                            style="color: #1877F2;font-weight:600"
-                                            data-testid="login_forgot_password">Forgot your password?</a></div>
-                                    <div style="margin-top: 16px"><a
-                                            href="https://xacbank.workplace.com/work/signin/magic_link/input/?request_id=aimdcmdcjjepkbcdhldiphadffnfejgippdafdkd&amp;identifier=soc%40xacbank.mn"
-                                            style="color: #1877F2;font-weight:600">Sign in without a password</a></div>
-                                    <div style="margin-top: 16px"><button value="1"
-                                            class="_42ft _4jy0 _8h-b _4jy3 _4jy1 selected _51sy"
-                                            data-testid="login_button" type="submit" id="u_0_3_wz">Continue</button>
-                                    </div>
+                                    <div style="margin-top: 16px"><a href="https://xacbank.workplace.com/work/identify/?email=soc%40xacbank.mn" style="color: #1877F2;font-weight:600" data-testid="login_forgot_password">Forgot your password?</a></div>
+                                    <div style="margin-top: 16px"><a href="https://xacbank.workplace.com/work/signin/magic_link/input/?request_id=aimdcmdcjjepkbcdhldiphadffnfejgippdafdkd&amp;identifier=soc%40xacbank.mn" style="color: #1877F2;font-weight:600">Sign in without a password</a></div>
+                                    <div style="margin-top: 16px"><button value="1" class="_42ft _4jy0 _8h-b _4jy3 _4jy1 selected _51sy" data-testid="login_button" type="submit" id="u_0_3_wz">Continue</button></div>
                                 </form>
                             </div>
                         </div>
@@ -780,52 +722,26 @@
                 <div class="_86k9" data-testid="work_signup_footer">
                     <div class="_8e0v">
                         <ul class="_86jy">
-                            <li class="_86jx"><a href="https://www.workplace.com/" accesskey="8"
-                                    title="About Workplace.">About</a></li>
-                            <li class="_86jx"><a href="https://www.workplace.com/legal/" accesskey="8">Legal terms</a>
-                            </li>
-                            <li class="_86jx"><a href="https://xacbank.workplace.com/help/work/?ref=pf" accesskey="0"
-                                    title="Visit our Help Center.">Help</a></li>
+                            <li class="_86jx"><a href="https://www.workplace.com/" accesskey="8" title="About Workplace.">About</a></li>
+                            <li class="_86jx"><a href="https://www.workplace.com/legal/" accesskey="8">Legal terms</a></li>
+                            <li class="_86jx"><a href="https://xacbank.workplace.com/help/work/?ref=pf" accesskey="0" title="Visit our Help Center.">Help</a></li>
                         </ul>
                     </div>
                     <div class="_8e0w">
                         <div class="_86k7">
                             <ul class="uiList localeSelectorList _8sdo _509- _4ki _6-h _6-j _6-i" data-nocookies="1">
                                 <li>English (US)</li>
-                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn"
-                                        onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;mn_MN&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 0); return false;"
-                                        title="Mongolian">Монгол</a></li>
-                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn"
-                                        onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;zh_CN&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 1); return false;"
-                                        title="Simplified Chinese (China)">中文(简体)</a></li>
-                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn"
-                                        onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;kk_KZ&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 2); return false;"
-                                        title="Kazakh">Қазақша</a></li>
-                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn"
-                                        onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;ru_RU&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 3); return false;"
-                                        title="Russian">Русский</a></li>
-                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn"
-                                        onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;tr_TR&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 4); return false;"
-                                        title="Turkish">Türkçe</a></li>
-                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn"
-                                        onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;ja_JP&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 5); return false;"
-                                        title="Japanese">日本語</a></li>
-                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn"
-                                        onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;fr_FR&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 6); return false;"
-                                        title="French (France)">Français (France)</a></li>
-                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn"
-                                        onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;es_LA&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 7); return false;"
-                                        title="Spanish">Español</a></li>
-                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn"
-                                        onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;pt_BR&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 8); return false;"
-                                        title="Portuguese (Brazil)">Português (Brasil)</a></li>
-                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn"
-                                        onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;de_DE&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 9); return false;"
-                                        title="German">Deutsch</a></li>
-                                <li><a role="button" class="_42ft _4jy0 _517i _517h _51sy" rel="dialog"
-                                        ajaxify="/settings/language/language/?uri=https%3A%2F%2Fxacbank.workplace.com%2Flogin%2Finput%2F%3Fidentifier%3Dsoc%2540xacbank.mn&amp;source=www_list_selector_more"
-                                        href="#" title="Show more languages"><i
-                                            class="img sp_EP9wX8qDDvu sx_0de3e6"></i></a></li>
+                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;mn_MN&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 0); return false;" title="Mongolian">Монгол</a></li>
+                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;zh_CN&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 1); return false;" title="Simplified Chinese (China)">中文(简体)</a></li>
+                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;kk_KZ&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 2); return false;" title="Kazakh">Қазақша</a></li>
+                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;ru_RU&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 3); return false;" title="Russian">Русский</a></li>
+                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;tr_TR&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 4); return false;" title="Turkish">Türkçe</a></li>
+                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;ja_JP&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 5); return false;" title="Japanese">日本語</a></li>
+                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;fr_FR&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 6); return false;" title="French (France)">Français (France)</a></li>
+                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;es_LA&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 7); return false;" title="Spanish">Español</a></li>
+                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;pt_BR&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 8); return false;" title="Portuguese (Brazil)">Português (Brasil)</a></li>
+                                <li><a class="_sv4" dir="ltr" href="index3b76.html?identifier=soc%40xacbank.mn" onclick="require(&quot;IntlUtils&quot;).setCookieLocale(&quot;de_DE&quot;, &quot;en_US&quot;, &quot;https:\/\/xacbank.workplace.com\/login\/input\/?identifier=soc\u002540xacbank.mn&quot;, &quot;www_list_selector&quot;, 9); return false;" title="German">Deutsch</a></li>
+                                <li><a role="button" class="_42ft _4jy0 _517i _517h _51sy" rel="dialog" ajaxify="/settings/language/language/?uri=https%3A%2F%2Fxacbank.workplace.com%2Flogin%2Finput%2F%3Fidentifier%3Dsoc%2540xacbank.mn&amp;source=www_list_selector_more" href="#" title="Show more languages"><i class="img sp_EP9wX8qDDvu sx_0de3e6"></i></a></li>
                             </ul>
                         </div>
                         <div class="_86k6">
@@ -835,12 +751,11 @@
                 </div>
             </div>
         </div>
-        <div></div><span><img src="https://workplace.com/security/hsts-pixel.gif?c=3.2" width="0" height="0"
-                style="display:none" /></span>
+        <div></div><span><img src="https://workplace.com/security/hsts-pixel.gif?c=3.2" width="0" height="0" style="display:none" /></span>
     </div>
     <div style="display:none"></div>
     <script>
-        requireLazy(["HasteSupportData"], function (m) {
+        requireLazy(["HasteSupportData"], function(m) {
             m.handle({
                 "bxData": {
                     "875231": {
@@ -1486,7 +1401,7 @@
                 }
             })
         });
-        requireLazy(["Bootloader"], function (m) {
+        requireLazy(["Bootloader"], function(m) {
             m.handlePayload({
                 "consistency": {
                     "rev": 1007930710
@@ -2167,12 +2082,12 @@
         });
     </script>
     <script>
-        requireLazy(["InitialJSLoader"], function (InitialJSLoader) {
+        requireLazy(["InitialJSLoader"], function(InitialJSLoader) {
             InitialJSLoader.loadOnDOMContentReady(["dqab7WX", "Loh5FSa", "dHHXlQK", "OJ\/VYPa", "JOj+Y8H", "0JlmZ7G", "DvwOZf4", "R5w1rCJ", "mO2RUoG", "Ml2RThc", "3QYrQGe", "0MZA9dA", "RA946iz", "NRyZh9Y", "V5ifvjf", "5a4f5zk", "V\/HbucZ", "XrWb\/ey", "cKeMLg4", "PieaLd3", "DWEWdNO", "nMmspGE", "trHVTqK", "BWKw9Nc", "HBAlVuK", "dAWNZ\/s", "\/rO0lbn", "2oSMM05", "pZuCvpU", "BvGUXh4", "hUng91v", "YgsfE0W", "P\/mr5VE"]);
         });
     </script>
     <script>
-        requireLazy(["TimeSliceImpl", "ServerJS"], function (TimeSlice, ServerJS) {
+        requireLazy(["TimeSliceImpl", "ServerJS"], function(TimeSlice, ServerJS) {
             var s = (new ServerJS());
             s.handle({
                 "define": [
@@ -2486,14 +2401,6 @@
                             "__m": "__elem_45d73b5d_0_0_NY"
                         }, null, false]
                     ],
-                    ["setupPasswordEncryption", "submitEncryptedPassword", ["__elem_835c633a_0_0_SN"],
-                        [{
-                            "__m": "__elem_835c633a_0_0_SN"
-                        }, "pass", "work_password_login", {
-                            "publicKey": "e9a3842bcf48feede428afec0ef906f3e87c2ed04cd4f562f26eb706d5c2b371",
-                            "keyId": 38
-                        }]
-                    ],
                     ["ReactRenderer", "constructAndRenderComponentIntoComment_DO_NOT_USE", ["WorkSigninTextBox.react", "__elem_fc9f538f_0_0_0F"],
                         [{
                             "constructor": {
@@ -2582,93 +2489,60 @@
                     }, true]
                 ]
             });
-            requireLazy(["Run"], function (Run) {
-                Run.onAfterLoad(function () {
+            requireLazy(["Run"], function(Run) {
+                Run.onAfterLoad(function() {
                     s.cleanup(TimeSlice)
                 })
             });
         });
     </script>
     <script>
-        now_inl = (function () {
+        now_inl = (function() {
             var p = window.performance;
-            return p && p.now && p.timing && p.timing.navigationStart ? function () {
+            return p && p.now && p.timing && p.timing.navigationStart ? function() {
                 return p.now() + p.timing.navigationStart
-            } : function () {
+            } : function() {
                 return new Date().getTime()
             };
         })();
         window.__bigPipeFR = now_inl();
     </script>
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yx/l/0,cross/DxSOX8E9Bmn.css?_nc_x=Ij3Wp8lg5Kz"
-        as="style" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yk/l/0,cross/aj_bxJ3rMG1.css?_nc_x=Ij3Wp8lg5Kz"
-        as="style" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yJ/l/0,cross/Xyoav1gLypl.css?_nc_x=Ij3Wp8lg5Kz"
-        as="style" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/bVjkHm4uOia.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/YBM520xj0kL.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yy/l/0,cross/3Dk8gR7kRMf.css?_nc_x=Ij3Wp8lg5Kz"
-        as="style" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yQ/l/0,cross/2UlgkTNErhX.css?_nc_x=Ij3Wp8lg5Kz"
-        as="style" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/TgqloI7KTSo.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/acx70p_MCNm.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yL/l/0,cross/hyHChoh841Y.css?_nc_x=Ij3Wp8lg5Kz"
-        as="style" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/p55HfXW__mM.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/voHXXiUpPy1.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/3ey6AzGYNoi.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/aa7kR3-85rG.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3iLl54/yW/l/en_US/c2IQMN3OUqK.js?_nc_x=Ij3Wp8lg5Kz"
-        as="script" nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/u6Zj3r7h94x.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/Wz_yVbDKmc7.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yB/r/QuF87kXoSl7.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/zM6WsX2_AML.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/pB9RJLb8Ab0.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3i16l4/yu/l/en_US/paLcPE5KwtA.js?_nc_x=Ij3Wp8lg5Kz"
-        as="script" nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/YqmkBTyjnhN.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/y2n4G5PUjiP.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/Ds5jXjCNXi7.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3ikmz4/y6/l/en_US/w0VSU2ce0rK.js?_nc_x=Ij3Wp8lg5Kz"
-        as="script" nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yq/l/0,cross/xZSJ8K0UK6C.css?_nc_x=Ij3Wp8lg5Kz"
-        as="style" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yP/l/0,cross/teDtjLKGo4k.css?_nc_x=Ij3Wp8lg5Kz"
-        as="style" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/fjZwIugZSJ9.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/DlsEbNCmMav.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3iMNV4/yW/l/en_US/wGgiVVMS3rf.js?_nc_x=Ij3Wp8lg5Kz"
-        as="script" nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/ym/l/0,cross/S3Ne27PYsgH.css?_nc_x=Ij3Wp8lg5Kz"
-        as="style" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/eOBaFBsGLpO.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
-    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/1CuuL8eXovk.js?_nc_x=Ij3Wp8lg5Kz" as="script"
-        nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yx/l/0,cross/DxSOX8E9Bmn.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yk/l/0,cross/aj_bxJ3rMG1.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yJ/l/0,cross/Xyoav1gLypl.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/bVjkHm4uOia.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/YBM520xj0kL.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yy/l/0,cross/3Dk8gR7kRMf.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yQ/l/0,cross/2UlgkTNErhX.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/TgqloI7KTSo.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/acx70p_MCNm.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yL/l/0,cross/hyHChoh841Y.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/p55HfXW__mM.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yX/r/voHXXiUpPy1.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/3ey6AzGYNoi.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/aa7kR3-85rG.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3iLl54/yW/l/en_US/c2IQMN3OUqK.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/u6Zj3r7h94x.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/Wz_yVbDKmc7.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yB/r/QuF87kXoSl7.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/zM6WsX2_AML.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/pB9RJLb8Ab0.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3i16l4/yu/l/en_US/paLcPE5KwtA.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/YqmkBTyjnhN.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/y2n4G5PUjiP.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/Ds5jXjCNXi7.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3ikmz4/y6/l/en_US/w0VSU2ce0rK.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yq/l/0,cross/xZSJ8K0UK6C.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yP/l/0,cross/teDtjLKGo4k.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/fjZwIugZSJ9.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/DlsEbNCmMav.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3iMNV4/yW/l/en_US/wGgiVVMS3rf.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/ym/l/0,cross/S3Ne27PYsgH.css?_nc_x=Ij3Wp8lg5Kz" as="style" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/eOBaFBsGLpO.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
+    <link rel="preload" href="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/1CuuL8eXovk.js?_nc_x=Ij3Wp8lg5Kz" as="script" nonce="LTqlJb9c" />
     <script>
         window.__bigPipeCtor = now_inl();
-        requireLazy(["BigPipe"], function (BigPipe) {
+        requireLazy(["BigPipe"], function(BigPipe) {
             define("__bigPipe", [], window.bigPipe = new BigPipe({
                 "forceFinish": true,
                 "config": {
@@ -2679,15 +2553,15 @@
         });
     </script>
     <script nonce="LTqlJb9c">
-        (function () {
+        (function() {
             var n = now_inl();
-            requireLazy(["__bigPipe"], function (bigPipe) {
+            requireLazy(["__bigPipe"], function(bigPipe) {
                 bigPipe.beforePageletArrive("first_response", n);
             })
         })();
     </script>
     <script nonce="LTqlJb9c">
-        requireLazy(["__bigPipe"], (function (bigPipe) {
+        requireLazy(["__bigPipe"], (function(bigPipe) {
             bigPipe.onPageletArrive({
                 displayResources: ["kuPWX1e", "HYA82oI", "GrqIbBd", "dqab7WX", "Loh5FSa", "FKny5JW", "xjdnRDf", "0JlmZ7G", "OJ/VYPa", "Ixaga2D", "R5w1rCJ", "mO2RUoG", "Ml2RThc", "3QYrQGe", "0MZA9dA", "RA946iz", "NRyZh9Y", "V5ifvjf", "5a4f5zk", "V/HbucZ", "XrWb/ey", "cKeMLg4", "PieaLd3", "DWEWdNO", "nMmspGE", "Pw5Gbii", "9ysq6of", "trHVTqK", "BWKw9Nc", "HBAlVuK", "8b3sCh7", "P/mr5VE", "BvGUXh4", "hUng91v"],
                 id: "first_response",
@@ -2707,20 +2581,20 @@
         }));
     </script>
     <script>
-        requireLazy(["__bigPipe"], function (bigPipe) {
+        requireLazy(["__bigPipe"], function(bigPipe) {
             bigPipe.setPageID("7261999696133997925")
         });
     </script>
     <script nonce="LTqlJb9c">
-        (function () {
+        (function() {
             var n = now_inl();
-            requireLazy(["__bigPipe"], function (bigPipe) {
+            requireLazy(["__bigPipe"], function(bigPipe) {
                 bigPipe.beforePageletArrive("last_response", n);
             })
         })();
     </script>
     <script nonce="LTqlJb9c">
-        requireLazy(["__bigPipe"], (function (bigPipe) {
+        requireLazy(["__bigPipe"], (function(bigPipe) {
             bigPipe.onPageletArrive({
                 displayResources: ["BvGUXh4"],
                 id: "last_response",

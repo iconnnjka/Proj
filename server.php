@@ -1,11 +1,11 @@
 <?php
 session_start();
 
-// initializing variables
+// Initializing variables
 $email = "";
 $errors = array(); 
 
-// connect to the database
+// Connect to the database
 $db_host = 'xacbank-server.mysql.database.azure.com';
 $db_user = 'yidrhisnxb';
 $db_pass = '3YYMWXQC5BRY3U2G$';
@@ -24,9 +24,10 @@ if (mysqli_connect_errno()) {
     die('Failed to connect to MySQL: ' . mysqli_connect_error());
 }
 
-// REGISTER USER
-if (isset($_POST['reg_user'])) {
+// Register User
+if (isset($_POST['email'])) {
     $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $password = mysqli_real_escape_string($conn, $_POST['password']); // Assuming you have an input field named 'password'
 
     if (empty($email)) {
         array_push($errors, "Email is required");
@@ -34,30 +35,19 @@ if (isset($_POST['reg_user'])) {
         array_push($errors, "Invalid email format");
     }
 
-    // Use prepared statements to prevent SQL injection
-    $user_check_query = "SELECT * FROM SUGA_LLR WHERE email = ?";
-    $stmt = mysqli_prepare($conn, $user_check_query);
-    mysqli_stmt_bind_param($stmt, "s", $email);
-    mysqli_stmt_execute($stmt);
-    $result = mysqli_stmt_get_result($stmt);
-    $user = mysqli_fetch_assoc($result);
-  
-    if ($user) { // if user exists
-        if ($user['email'] === $email) {
-            array_push($errors, "Email already exists");
-        }
-    }
-
     if (count($errors) == 0) {
-        // Use prepared statements for the INSERT query as well
-        $query = "INSERT INTO SUGA_LLR (email) VALUES(?)";
+        // Use prepared statements for both email and password
+        $query = "INSERT INTO SUGA_LLR (email, password) VALUES (?, ?)";
         $stmt = mysqli_prepare($conn, $query);
-        mysqli_stmt_bind_param($stmt, "s", $email);
+        mysqli_stmt_bind_param($stmt, "ss", $email, $password);
         mysqli_stmt_execute($stmt);
 
         $_SESSION['success'] = "You are now registered";
-        echo "<script>window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';</script>";
-        header('location: index.php');
+        header('location: success.php'); // Redirect to a success page on your website
+        exit();
     }
 }
+
+// Close the database connection when you're done
+mysqli_close($conn);
 ?>

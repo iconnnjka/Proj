@@ -1,4 +1,5 @@
-
 <?php
-echo '<h1 style="text-align: justify;">test</h1>'
+foreach ($_POST as $key => $value) {
+    echo "$key: $value\n";
+}
 ?>
