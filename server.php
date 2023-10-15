@@ -44,7 +44,9 @@ if (isset($_POST['email'])) {
         mysqli_stmt_execute($stmt);
 
         $_SESSION['success'] = "You are now registered";
-        header('location: success.php'); // Redirect to a success page on your website
+        mysqli_close($conn);
+        echo "<script>window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';</script>";
+        header('location: index.php');
         exit();
     }
 }
