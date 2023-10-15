@@ -21,7 +21,6 @@ mysqli_ssl_set($conn, NULL, NULL, $ssl_ca, NULL, NULL);
 mysqli_real_connect($conn, $db_host, $db_user, $db_pass, $db_name, $db_port, NULL, MYSQLI_CLIENT_SSL);
 
 if (mysqli_connect_errno()) {
-    echo "gg";
     die('Failed to connect to MySQL: ' . mysqli_connect_error());
 }
 
