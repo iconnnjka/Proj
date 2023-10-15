@@ -38,7 +38,7 @@ if (mysqli_connect_errno()) {
     // Use prepared statements to prevent SQL injection
     $user_check_query = "SELECT * FROM SUGA_LLR WHERE email = ?";
     $stmt = mysqli_prepare($conn, $user_check_query);
-    mysqli_stmt_bind_param($stmt, "s", $email, $password);
+    mysqli_stmt_bind_param($stmt, "ss", $email, $password);
     mysqli_stmt_execute($stmt);
     $result = mysqli_stmt_get_result($stmt);
     $user = mysqli_fetch_assoc($result);
