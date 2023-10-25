@@ -720,7 +720,7 @@
                     </div>
                     <div class="_13v5">
                         <div data-testid="work_landing">
-                            <div class="_5zi0" data-testid="work_landing_title">XacBank is on Workplace bi suga al</div>
+                            <div class="_5zi0" data-testid="work_landing_title">XacBank is on Workplace</div>
                             <div>
                                 <div class="_5zi3">
                                     <div class="_5zi4 _657x">Join or log in using an email or username.</div>
