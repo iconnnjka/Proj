@@ -8,7 +8,7 @@ mysql -h xacbankk-server.mysql.database.azure.com -u okyzwjplcj -p --ssl-ca=/hom
 
 select data query
 ```sql
-use xacbank-database;
+use xacbankk-database;
 select * from suga_llr;
 ```
 
