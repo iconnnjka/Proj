@@ -1,6 +1,6 @@
 # GG
 
-**password** = 3YYMWXQC5BRY3U2G$
+**password** = 04883YR7V1S12110$
 
 ```bash
 mysql -h xacbankk-server.mysql.database.azure.com -u okyzwjplcj -p --ssl-ca=/home/site/wwwroot/DigiCertGlobalRootCA.crt.pem 
